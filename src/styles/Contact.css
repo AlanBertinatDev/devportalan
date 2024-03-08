@@ -1,0 +1,36 @@
+.contact-form {
+    border: 1px solid white; /* Borde blanco de 2px */
+    padding: 20px; /* Añade espacio interno al formulario */
+    margin-top: 20px;
+    position: relative; /* Para que el texto "Contáctarme" pueda ser posicionado */
+  }
+
+.contact-form .MuiOutlinedInput-root {
+    color: white;
+}
+
+.contact-form .MuiOutlinedInput-notchedOutline {
+    border-color: white !important; 
+}
+
+.contact-form .MuiInputLabel-root {
+    color: white; 
+}
+.contact-form .MuiButton-root {
+    color: white; 
+    background-color: #4db6ac; 
+}
+
+.contact-form .MuiButton-root:hover {
+    background-color: #009688; 
+}
+
+.form-header {
+    position: absolute; /* Posiciona el texto absolutamente dentro del formulario */
+    top: -15px; /* Ajusta la posición vertical del texto */
+    left: 10px; /* Ajusta la posición horizontal del texto */
+    font-size: 1.5rem; /* Tamaño de fuente del encabezado */
+    color: white; /* Color del texto */
+    background-color: #202020; /* Color de fondo del encabezado */
+    padding: 0 10px; /* Añade espacio interno al encabezado */
+  }
